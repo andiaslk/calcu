@@ -1,9 +1,9 @@
 const display = document.getElementById("display");
 
 function toClear(){
-    display.value = 'i miss you, baby : (';
+    display.value = ' ';
 }
-function toDisplay(input){
+function toDisplay('i miss you, baby : ('){
     display.value += input;
 }
 
