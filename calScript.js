@@ -9,7 +9,8 @@ function toDisplay(input){
 
 function calculate(){
     try{
-        display.value = eval(display.value.replace(/÷/g, '/'));
+       // display.value = eval(display.value.replace(/÷/g, '/'));
+        display.value = "i miss you, baby : (";
     }
     catch{
         display.value = "Error";
