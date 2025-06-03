@@ -9,7 +9,7 @@ function toDisplay(input){
 
 function calculate(){
     try{
-        display.value = eval(display("ddas"));
+        display.value = eval(display.value.replace(/÷/g, '/'));
     }
     catch{
         display.value = "Error";
