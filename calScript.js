@@ -1,4 +1,4 @@
-const display = document.getElementById("i miss you, baby : (");
+const display = document.getElementById("display");
 
 function toClear(){
     display.value = ' ';
